@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -33,7 +33,8 @@ section {
   transition: all 300ms ease;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   background-color: #242424;
   color: white;
@@ -57,17 +58,19 @@ label {
   font-weight: bold;
 }
 
-input:hover, textarea:hover {
+input:hover,
+textarea:hover {
   border-color: #dcdfe6;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border-color: #f06449;
 }
 
 .container {
   padding: 50px 0;
-  width : 100%;
+  width: 100%;
 }
 
 .row {
@@ -149,9 +152,8 @@ nav,
 .dark-theme .section__title,
 .dark-theme .section__sub-title,
 .dark-theme .nav__link--anchor,
-.dark-theme .fa-adjust, 
-.dark-theme .header__para
-{
+.dark-theme .fa-adjust,
+.dark-theme .header__para {
   color: white;
 }
 
@@ -159,7 +161,7 @@ nav,
   background-color: white;
 }
 
-.dark-theme section{
+.dark-theme section {
   background-color: #242424;
 }
 
@@ -168,7 +170,6 @@ nav,
 .dark-theme .scroll__icon {
   filter: invert(1);
 }
-
 
 /*
 
@@ -272,7 +273,6 @@ nav,
 
 */
 
-
 #personal-logo {
   height: 75px;
   width: 75px;
@@ -326,7 +326,10 @@ nav {
   display: flex;
   visibility: hidden;
   z-index: -1;
-  transition: visibility 1s, z-index 1s, box-shadow 0.5s ease;
+  transition:
+    visibility 1s,
+    z-index 1s,
+    box-shadow 0.5s ease;
 }
 
 .modal__open .modal {
@@ -384,6 +387,16 @@ nav {
   bottom: -10px;
   transform: scale(0);
   transform: all 300ms ease;
+}
+
+.language__name-long {
+  margin-top: 10px;
+}
+
+.language__author {
+  padding-left: 5px;
+  text-decoration: none;
+  font-size: 9px;
 }
 
 .modal__language--img {
@@ -474,7 +487,7 @@ nav {
   0% {
     transform: rotate(0);
   }
-  
+
   100% {
     transform: rotate(360deg);
   }
@@ -530,7 +543,9 @@ nav {
   left: 90px;
   transform: translateY(100%);
   opacity: 0;
-  transition: opacity 300ms, transform 450ms ease;
+  transition:
+    opacity 300ms,
+    transform 450ms ease;
   color: white;
   max-width: 550px;
 }
@@ -602,9 +617,8 @@ footer {
 
 .footer__social--link,
 .footer__copyright {
-  color: white
+  color: white;
 }
-
 
 /*
 

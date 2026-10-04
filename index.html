@@ -62,13 +62,13 @@
           Here's a bit more <b class="orange click" onclick="toggleModal()">about me.</b>
         </p>
         <div class="social__list">
-          <a href="#" class="social__link click">
+          <a href="https://www.linkedin.com/in/ryandonaldson-/" target="_blank" class="social__link click">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="#" class="social__link click">
+          <a href="https://github.com/ryan-donaldson" target="_blank" class="social__link click">
             <i class="fab fa-github"></i>
           </a>
-          <a href="./assets/David Bragg Resume.pdf" target="_blank" class="social__link click">
+          <a href="./assets/Resume.docx.pdf" target="_blank" class="social__link click">
             <i class="fa-solid fa-file-pdf"></i>
           </a>
         </div>
@@ -85,11 +85,12 @@
     <div class="modal">
       <div class="modal__half modal__about">
         <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
-        <h4 class="modal__sub-title modal__sub-title--about">Job Role</h4>
+        <h4 class="modal__sub-title modal__sub-title--about">Software Engineer</h4>
         <p class="modal__para">
-          Description about me, <b class="orange">highlight</b> key words
+          Software engineer with a <b class="orange">Bachelor of Science</b> from BYU-Idaho and <b class="orange">specialized frontend training</b> through Frontend Simplified. 
+          Experienced in building <b class="orange">responsive, user-focused</b> web applications using React, TypeScript, Firebase, and modern development tools.
           <br>
-          More about me, <b class="orange">highlight</b> important words
+          Passionate about creating <b class="orange">scalable, high-performance solutions</b> while delivering <b class="orange">intuitive user experiences.</b>
         </p>
         <div class="modal__languages">
           <figure class="modal__language">
@@ -108,6 +109,11 @@
             <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" alt="">
             <span class="language__name">React</span>
           </figure>
+          <figure class="modal__language">
+            <img class="modal__language--img" src="./assets/next.png" alt="">
+            <span class="language__name language__name-long">NextJS <a href="https://iconscout.com/contributors/arseniyivanov" class="language__name language__author" target="_blank">icon by Arseniy Ivanov</a></span>
+            
+          </figure>
         </div>
       </div>
       <div class="modal__half modal__contact">
@@ -121,11 +127,11 @@
         <form id="contact__form" onsubmit="contact(event)">
           <div class="form__item">
             <label class="form__item--label">Name</label>
-            <input type="text" name="user_name" class="input" required></input> 
+            <input type="text" name="user_name" class="input" required>
           </div>
           <div class="form__item">
             <label class="form__item--label">E-mail</label>
-            <input type="email" name="user_email" class="input" required></input>
+            <input type="email" name="user_email" class="input" required>
           </div>
           <div class="form__item">
             <label class="form__item--label">Message</label>
@@ -160,23 +166,23 @@
         <ul class="project__list">
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/blinker mockup.png" class="project__img" alt="">
+              <img src="./assets/NFT.png" class="project__img" alt="">
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  Project Name Here
+                  Ultraverse
                 </h3>
                 <h4 class="project__description--sub-title">
-                  Tech Stacks
+                   JavaScript, HTML/CSS, React, React Router, Axios 
                 </h4>
                 <p class="project__description--para">
-                  Project Description goes here
+                  A responsive NFT marketplace that allows users to discover digital collectibles, explore creator profiles, browse collections, and view detailed NFT information including pricing, ownership, popularity, and auction status. Users can sort and browse marketplace listings, navigate between creators and assets, and track live auction countdowns in real time.
                 </p>
                 <div class="project__description--links">
-                  <a href="" class="project__description--link">
+                  <a href="https://github.com/ryan-donaldson/ryan-internship" target="_blank" class="project__description--link">
                     <i class="fab fa-github"></i>
                   </a>
-                  <a href="" class="project__description--link">
+                  <a href="https://ryan-internship-iota.vercel.app/" target="_blank" class="project__description--link">
                     <i class="fas fa-link"></i>
                   </a>
                 </div>
@@ -185,23 +191,23 @@
           </li>
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/blinker mockup.png" class="project__img" alt="">
+              <img src="./assets/Summarist.png" class="project__img" alt="">
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  Project Name Here
+                  Summarist
                 </h3>
                 <h4 class="project__description--sub-title">
-                  Tech Stacks
+                   Next.js, React, TypeScript, Firebase, Firestore, and Zustand
                 </h4>
                 <p class="project__description--para">
-                  Project Description goes here
+                  A modern book-summary platform where users can explore nonfiction titles, read key takeaways, and listen to audiobook versions of summaries. The platform includes personalized recommendations, real-time search, user accounts, and subscription-based access to premium content.
                 </p>
                 <div class="project__description--links">
-                  <a href="" class="project__description--link">
+                  <a href="https://github.com/ryan-donaldson/advanced-internship" target="_blank" class="project__description--link">
                     <i class="fab fa-github"></i>
                   </a>
-                  <a href="" class="project__description--link">
+                  <a href="https://advanced-internship-dusky.vercel.app/" target="_blank" class="project__description--link">
                     <i class="fas fa-link"></i>
                   </a>
                 </div>
@@ -210,23 +216,48 @@
           </li>
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/blinker mockup.png" class="project__img" alt="">
+              <img src="./assets/LIbrary.png" class="project__img" alt="">
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  Project Name Here
+                  Online Library
                 </h3>
                 <h4 class="project__description--sub-title">
-                  Tech Stacks
+                   JavaScript, CSS, React, React Router DOM, Font Awesome
                 </h4>
                 <p class="project__description--para">
-                  Project Description goes here
+                  A modern online bookstore where users can discover, evaluate, and purchase books through an intuitive shopping experience. The platform features curated recommendations, advanced catalog browsing, detailed product pages, and a fully interactive cart for managing purchases.
                 </p>
                 <div class="project__description--links">
-                  <a href="" class="project__description--link">
+                  <a href="https://github.com/ryan-donaldson/library-react" target="_blank" class="project__description--link">
                     <i class="fab fa-github"></i>
                   </a>
-                  <a href="" class="project__description--link">
+                  <a href="https://library-react-nine-dun.vercel.app/" target="_blank" class="project__description--link">
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="./assets/CAC.png" class="project__img" alt="">
+              <div class="project__wrapper--bg"></div>
+              <div class="project__description">
+                <h3 class="project__description--title">
+                  Covenant AI Consulting
+                </h3>
+                <h4 class="project__description--sub-title">
+                  JavaScript, CSS, Vite, React, React Router, FontAwesome
+                </h4>
+                <p class="project__description--para">
+                  A website for my brother's consulting business I had the privilege of creating according to his design and specifications. It is a responsive marketing/business site featuring a multi-page site architecture, reusable component library, FontAwesome iconography, and an integrated EmailJS contact form for lead capture — configured with ESLint for code quality.
+                </p>
+                <div class="project__description--links">
+                  <a href="https://github.com/ryan-donaldson/Covenant-AI-Consulting" target="_blank" class="project__description--link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://covenantaico.com/" target="_blank" class="project__description--link">
                     <i class="fas fa-link"></i>
                   </a>
                 </div>
@@ -244,14 +275,14 @@
           <img class="footer__logo--img" src="./assets/logo-bg-removed.png" alt="">
         </figure>
         <div class="footer__social--list">
-          <a href="#" target="_blank" class="
+          <a href="https://github.com/ryan-donaldson" target="_blank" class="
             footer__social--link
             link__hover-effect
             link__hover-effect--white
             ">
             GitHub
           </a>
-          <a href="#" target="_blank" class="
+          <a href="https://www.linkedin.com/in/ryandonaldson-/" target="_blank" class="
             footer__social--link
             link__hover-effect
             link__hover-effect--white
@@ -264,7 +295,7 @@
             link__hover-effect--white
             ">
             Contact
-          <a href="./assets/David Bragg Resume.pdf" target="_blank" class="
+          <a href="./assets/Resume.docx.pdf" target="_blank" class="
             footer__social--link
             link__hover-effect
             link__hover-effect--white
