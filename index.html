@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ryan Donaldson</title>
+  <title>Ryan Donaldson | Junior Frontend Developer</title>
+  <meta name="description" content="Ryan Donaldson builds responsive apps with React, Next.js, TypeScript, and Firebase. Explore Ultraverse, Summarist, and Online Library projects.">
+  <meta property="og:title" content="Ryan Donaldson | Junior Frontend Developer">
+  <meta property="og:description" content="Ryan Donaldson builds responsive apps with React, Next.js, TypeScript, and Firebase. Explore Ultraverse, Summarist, and Online Library projects.">
+  <meta property="og:type" content="website">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/c01a776ec2.js" crossorigin="anonymous"></script>
   <script src="index.js"></script>
@@ -56,11 +60,18 @@
       <div class="header__content">
         <h1 class="title">Hey</h1>
         <h1 class="title orange">I'm Ryan.</h1>
-        <p class="header__para">I'm a <b class="orange">Frontend Software Engineer</b> with a strong passion for building web applications
-          with great user experiences.
+        <p class="header__para">I'm a <b class="orange">Junior Frontend Developer</b> who builds responsive React and Next.js applications.
           <br> 
           Here's a bit more <b class="orange click" onclick="toggleModal()">about me.</b>
         </p>
+        <ul class="skills__list" aria-label="Core skills">
+          <li class="skills__item">React</li>
+          <li class="skills__item">Next.js</li>
+          <li class="skills__item">TypeScript</li>
+          <li class="skills__item">Firebase</li>
+          <li class="skills__item">REST APIs</li>
+          <li class="skills__item">Git</li>
+        </ul>
         <div class="social__list">
           <a href="https://www.linkedin.com/in/ryandonaldson-/" target="_blank" class="social__link click">
             <i class="fab fa-linkedin-in"></i>
@@ -85,9 +96,9 @@
     <div class="modal">
       <div class="modal__half modal__about">
         <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
-        <h4 class="modal__sub-title modal__sub-title--about">Software Engineer</h4>
+        <h4 class="modal__sub-title modal__sub-title--about">Junior Frontend Developer</h4>
         <p class="modal__para">
-          Software engineer with a <b class="orange">Bachelor of Science</b> from BYU-Idaho and <b class="orange">specialized frontend training</b> through Frontend Simplified. 
+          Junior frontend developer with a <b class="orange">Bachelor of Science</b> from BYU-Idaho and <b class="orange">specialized frontend training</b> through Frontend Simplified. 
           Experienced in building <b class="orange">responsive, user-focused</b> web applications using React, TypeScript, Firebase, and modern development tools.
           <br>
           Passionate about creating <b class="orange">scalable, high-performance solutions</b> while delivering <b class="orange">intuitive user experiences.</b>
@@ -147,15 +158,15 @@
         </div>
       </div>
     </div>
-    <img src="./assets/semi circle.svg" class="shape shape--0">
-    <img src="./assets/circle.svg" class="shape shape--1">
-    <img src="./assets/squiggly.svg" class="shape shape--2">
-    <img src="./assets/circle.svg" class="shape shape--3">
-    <img src="./assets/triangle.svg" class="shape shape--4">
-    <img src="./assets/circle.svg" class="shape shape--5">
-    <img src="./assets/squiggly.svg" class="shape shape--6">
-    <img src="./assets/circle.svg" class="shape shape--7">
-    <img src="./assets/semi circle.svg" class="shape shape--8">
+    <img src="./assets/semi circle.svg" class="shape shape--0" alt="" aria-hidden="true">
+    <img src="./assets/circle.svg" class="shape shape--1" alt="" aria-hidden="true">
+    <img src="./assets/squiggly.svg" class="shape shape--2" alt="" aria-hidden="true">
+    <img src="./assets/circle.svg" class="shape shape--3" alt="" aria-hidden="true">
+    <img src="./assets/triangle.svg" class="shape shape--4" alt="" aria-hidden="true">
+    <img src="./assets/circle.svg" class="shape shape--5" alt="" aria-hidden="true">
+    <img src="./assets/squiggly.svg" class="shape shape--6" alt="" aria-hidden="true">
+    <img src="./assets/circle.svg" class="shape shape--7" alt="" aria-hidden="true">
+    <img src="./assets/semi circle.svg" class="shape shape--8" alt="" aria-hidden="true">
   </section>
   <section id="projects">
     <div class="container">
@@ -166,8 +177,7 @@
         <ul class="project__list">
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/NFT.png" class="project__img" alt="">
-              <div class="project__wrapper--bg"></div>
+              <img src="./assets/NFT.png" class="project__img" alt="Ultraverse NFT marketplace homepage">
               <div class="project__description">
                 <h3 class="project__description--title">
                   Ultraverse
@@ -179,11 +189,13 @@
                   A responsive NFT marketplace that allows users to discover digital collectibles, explore creator profiles, browse collections, and view detailed NFT information including pricing, ownership, popularity, and auction status. Users can sort and browse marketplace listings, navigate between creators and assets, and track live auction countdowns in real time.
                 </p>
                 <div class="project__description--links">
-                  <a href="https://github.com/ryan-donaldson/ryan-internship" target="_blank" class="project__description--link">
+                  <a href="https://github.com/ryan-donaldson/ryan-internship" target="_blank" class="project__description--link" aria-label="Ultraverse code">
                     <i class="fab fa-github"></i>
+                    <span>Code</span>
                   </a>
-                  <a href="https://ryan-internship-iota.vercel.app/" target="_blank" class="project__description--link">
+                  <a href="https://ryan-internship-iota.vercel.app/" target="_blank" class="project__description--link" aria-label="Ultraverse live demo">
                     <i class="fas fa-link"></i>
+                    <span>Live Demo</span>
                   </a>
                 </div>
               </div>
@@ -191,8 +203,7 @@
           </li>
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/Summarist.png" class="project__img" alt="">
-              <div class="project__wrapper--bg"></div>
+              <img src="./assets/Summarist.png" class="project__img" alt="Summarist book-summary platform homepage">
               <div class="project__description">
                 <h3 class="project__description--title">
                   Summarist
@@ -204,11 +215,13 @@
                   A modern book-summary platform where users can explore nonfiction titles, read key takeaways, and listen to audiobook versions of summaries. The platform includes personalized recommendations, real-time search, user accounts, and subscription-based access to premium content.
                 </p>
                 <div class="project__description--links">
-                  <a href="https://github.com/ryan-donaldson/advanced-internship" target="_blank" class="project__description--link">
+                  <a href="https://github.com/ryan-donaldson/advanced-internship" target="_blank" class="project__description--link" aria-label="Summarist code">
                     <i class="fab fa-github"></i>
+                    <span>Code</span>
                   </a>
-                  <a href="https://advanced-internship-dusky.vercel.app/" target="_blank" class="project__description--link">
+                  <a href="https://advanced-internship-dusky.vercel.app/" target="_blank" class="project__description--link" aria-label="Summarist live demo">
                     <i class="fas fa-link"></i>
+                    <span>Live Demo</span>
                   </a>
                 </div>
               </div>
@@ -216,8 +229,7 @@
           </li>
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/LIbrary.png" class="project__img" alt="">
-              <div class="project__wrapper--bg"></div>
+              <img src="./assets/LIbrary.png" class="project__img" alt="Online Library bookstore homepage">
               <div class="project__description">
                 <h3 class="project__description--title">
                   Online Library
@@ -229,11 +241,13 @@
                   A modern online bookstore where users can discover, evaluate, and purchase books through an intuitive shopping experience. The platform features curated recommendations, advanced catalog browsing, detailed product pages, and a fully interactive cart for managing purchases.
                 </p>
                 <div class="project__description--links">
-                  <a href="https://github.com/ryan-donaldson/library-react" target="_blank" class="project__description--link">
+                  <a href="https://github.com/ryan-donaldson/library-react" target="_blank" class="project__description--link" aria-label="Online Library code">
                     <i class="fab fa-github"></i>
+                    <span>Code</span>
                   </a>
-                  <a href="https://library-react-nine-dun.vercel.app/" target="_blank" class="project__description--link">
+                  <a href="https://library-react-nine-dun.vercel.app/" target="_blank" class="project__description--link" aria-label="Online Library live demo">
                     <i class="fas fa-link"></i>
+                    <span>Live Demo</span>
                   </a>
                 </div>
               </div>
@@ -241,8 +255,7 @@
           </li>
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/CAC.png" class="project__img" alt="">
-              <div class="project__wrapper--bg"></div>
+              <img src="./assets/CAC.png" class="project__img" alt="Covenant AI Consulting homepage">
               <div class="project__description">
                 <h3 class="project__description--title">
                   Covenant AI Consulting
@@ -254,11 +267,13 @@
                   A website for my brother's consulting business I had the privilege of creating according to his design and specifications. It is a responsive marketing/business site featuring a multi-page site architecture, reusable component library, FontAwesome iconography, and an integrated EmailJS contact form for lead capture — configured with ESLint for code quality.
                 </p>
                 <div class="project__description--links">
-                  <a href="https://github.com/ryan-donaldson/Covenant-AI-Consulting" target="_blank" class="project__description--link">
+                  <a href="https://github.com/ryan-donaldson/Covenant-AI-Consulting" target="_blank" class="project__description--link" aria-label="Covenant AI Consulting code">
                     <i class="fab fa-github"></i>
+                    <span>Code</span>
                   </a>
-                  <a href="https://covenantaico.com/" target="_blank" class="project__description--link">
+                  <a href="https://covenantaico.com/" target="_blank" class="project__description--link" aria-label="Covenant AI Consulting live demo">
                     <i class="fas fa-link"></i>
+                    <span>Live Demo</span>
                   </a>
                 </div>
               </div>
